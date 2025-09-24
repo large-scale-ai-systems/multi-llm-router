@@ -1,0 +1,37 @@
+# LLM Router with Vector Database - Cross-Platform Requirements
+
+# Core ML and Vector Search
+torch>=2.8.0
+colbert-ai>=0.2.22
+transformers>=4.30.0
+
+# FAISS Vector Database (Windows/Linux compatible)
+faiss-cpu>=1.7.4  # CPU version for better Windows compatibility
+sentence-transformers>=2.2.0
+
+# Alternative: GPU version (uncomment if you have CUDA and want GPU acceleration)
+# faiss-gpu>=1.7.4
+
+# Data Processing
+numpy>=1.24.0
+pandas>=1.5.0
+datasets>=2.12.0
+
+# Build Tools (for C++ extensions on Linux)
+ninja>=1.10.0
+
+# Optional: ChromaDB alternative (uncomment if you want to try it)
+# chromadb>=0.4.0
+
+# Utilities
+tqdm>=4.65.0
+pathlib>=1.0.1
+
+# FastAPI and API Server
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
+
+# Development and Testing
+pytest>=7.0.0
+setuptools>=68.0.0
