@@ -5,7 +5,7 @@ A sophisticated multi-LLM routing system that uses **Control Theory (PID Control
 ## Key Features
 
 ### Core Capabilities
-- **Multi-Provider Support**: OpenAI (GPT-4o), Anthropic (Claude), Google (Gemini), AWS Bedrock
+- **Multi-Provider Support**: Pluggable any LLM including frontier OpenAI (GPT-4o), Anthropic (Claude), Google (Gemini), AWS Bedrock
 - **Intelligent Routing**: PID controller-based adaptive load balancing with performance opti## Linux Deploymentization
 - **Vector Database Integration**: ColBERT-powered semantic similarity matching with FAISS fallback
 - **Real-time Quality Assessment**: Response evaluation against human-curated golden standards
